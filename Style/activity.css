@@ -1,0 +1,23 @@
+.activity {
+    justify-items: center;
+    margin: 0 30px 0 30px;
+    padding: 60px 100px;
+    gap: 30px;
+    font-weight: 500;
+}
+
+.activity__title {
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #a3b1d6;
+}
+
+.activity__name {
+    text-align: center;
+}
+
+.activity__text {
+    text-align: justify;
+    line-height: 1.5;
+}

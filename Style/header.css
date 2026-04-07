@@ -1,0 +1,111 @@
+.header {
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  background-color: #9fabd3;
+  color: #fff;
+  padding: 10px;
+  
+}
+
+@media (min-width: 1025px) {
+  .header__menu-logo {
+    display: none;
+  }
+  .nav {
+    display: inline-flex;
+  }
+  .header__logo {
+    width: 100px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
+  .header__logo {
+    width: 60px;
+  }
+}
+
+
+
+.header__logo {
+  display: block;
+
+}
+
+.header__menu-logo {
+  margin-right: 30px;
+}
+
+.swiper {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            margin: 20px auto;
+            border-radius: 15px;
+            overflow: hidden;
+            border: 2px solid #a3b1d6;
+        }
+
+@media (max-width: 768px) {
+  .swiper {
+        height: 250px; /* Уменьшаем высоту, чтобы фото меньше обрезалось */
+    }
+}
+
+/* Высота для маленьких ТЕЛЕФОНОВ (экран меньше 480px) */
+@media (max-width: 480px) {
+  .swiper {
+        height: 180px; 
+    }
+}
+
+        .swiper-slide {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            width: 100%;       /* Растягиваем на всю ширину слайда */
+            height: 100%;      /* Растягиваем на всю высоту слайда */
+            object-fit: cover; /* КАРТИНКА ЗАПОЛНИТ ВСЁ ПРОСТРАНСТВО, НЕ ИСКАЖАЯСЬ! */
+        }
+
+        /* Цвет стрелок под ваш стиль (светло-голубой) */
+        .swiper-button-next, .swiper-button-prev {
+            color: #a3b1d6; 
+        }
+
+
+.nav {
+  list-style: none;
+  align-items: center;
+}
+
+.nav__list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav__item {
+  margin: 15px;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}

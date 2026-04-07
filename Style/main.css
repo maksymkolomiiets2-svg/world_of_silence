@@ -1,0 +1,15 @@
+@import './header.css';
+@import './menu.css';
+@import './page.css';
+@import './about-us.css';
+@import './who-we-are.css';
+@import './activity.css';
+
+body {
+    font-family: "Montserrat Alternates", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #535D8D;
+    
+}
+
