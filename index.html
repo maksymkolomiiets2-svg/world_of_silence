@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uk" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="icon" href="/images/icon1.PNG">
+    <title>World of Silence</title>
+</head>
+<body>
+    <header class="header">
+        <a class="header__logo-link" href="#"><img src="images/logo.png" alt="World of Silence Logo" class="header__logo"></a>
+        <nav class="nav"> 
+            <ul class="nav__list">
+                <li class="nav__item"><a class="nav__link" href="#aboutUs">Про нас</a></li>
+                <li class="nav__item"><a class="nav__link" href="#who-we-are">Хто ми</a></li>
+                <li class="nav__item"><a class="nav__link" href="#activity">Діяльність</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Новини та анонси</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">ЗМІ про нас</a></li>
+                <li class="nav__item"><a class="nav__link" href="#">Контакти</a></li>
+            </ul>
+        </nav>
+        <a class="header__menu-logo" href="#menu"><img src="/images/menu/menu.svg" alt="menu"></a>
+    </header>
+    <aside class="menu page__menu" id="menu">
+        <div class="menu__top">
+            <a class="header__logo-link" href="#"><img src="images/logo.png" alt="World of Silence Logo" class="header__logo"></a>
+            <a class="menu__back" href="#"><img src="images/menu/back.png" alt="Back"></a>
+        </div> 
+        <nav class="nav__menu">
+            <ul class="nav__menu-list">
+                <li class="nav__menu-item"><a class="nav__menu-link" href="#aboutUs">Про нас</a></li>
+                <li class="nav__menu-item"><a class="nav__menu-link" href="#who-we-are">Хто ми</a></li>
+                <li class="nav__menu-item"><a class="nav__menu-link" href="#activity">Діяльність</a></li>
+                <li class="nav__menu-item"><a class="nav__menu-link" href="">Новини та анонси</a></li>
+                <li class="nav__menu-item"><a class="nav__menu-link" href="">ЗМІ про нас</a></li>
+                <li class="nav__menu-item"><a class="nav__menu-link" href="">Контакти</a></li>
+            </ul>
+        </nav>
+        
+    </aside>
+    <section class="header__photo">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/header-photo/photo1.JPG" alt="photo1"></div>
+                <div class="swiper-slide"><img src="images/header-photo/photo2.jpeg" alt="photo2"></div>
+                <div class="swiper-slide"><img src="images/header-photo/photo3.JPG" alt="photo3"></div>
+                <div class="swiper-slide"><img src="images/header-photo/photo4.JPG" alt="photo4"></div>
+                <div class="swiper-slide"><img src="images/header-photo/photo5.JPEG" alt="photo5"></div>
+
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+    loop: true,
+    autoplay: {
+                delay: 3000,
+            },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+            </div>
+        </div>
+    </section>
+    <section class="about-us" id="#aboutUs">
+        <h1 class="about-us__name">Громадська організація <br>
+            World of Silence
+        </h1>
+        <h2 class="about-us__title">Про нас</h2>
+        <div class="about-us__container1">
+            <div class="about-us__text">
+                <p><b>Громадська організація World of Silence</b> - українська організація, створена для розвитку глухої спільноти, популяризації української жестової мови та посилення участі глухих у суспільному житті.</p>
+                <p>Ми працюємо над тим, щоб глухі мали рівний доступ до інформації, освіти, можливостей для розвитку та участі у процесах прийняття рішень.</p>
+                <h3>Наша місія</h3>
+                <p>Наша місія — сприяти розвитку глухої спільноти в Україні, популяризувати українську жестову мову та створювати рівні можливості для участі глухих у суспільному житті.
+Ми працюємо над підвищенням доступності інформації, освіти та громадської участі, а також над подоланням бар’єрів і дискримінації.
+</p>
+            </div>
+            <img class="about-us__photo1" src="/images/about-us/photo-about-us1.jpg" alt="about-us1">
+        </div>
+        <div class="about-us__container1">
+            <img class="about-us__photo2" src="/images/about-us/photo-about-us2.jpg" alt="about-us2">
+            <div class="about-us__text1">
+                <h3>Що ми робимо</h3>
+                <p>- <u>Розвиваємо освіту та доступ до інформації.</u> Створюємо відеолекції українською жестовою мовою, освітні матеріали доступного формату та інклюзивні медіапроєкти.</p>
+                <p>- <u>Популяризуємо українську жестову мову.</u> Проводимо освітні програми, курси, тренінги та інші заходи, що сприяють поширенню української жестової мови та покращенню комунікації між глухими та суспільством.</p>
+                <p>- <u>Працюємо над безбар’єрністю.</u> Реалізуємо ініціативи, спрямовані на покращення доступності інформації, послуг та суспільних процесів для глухих.</p>
+                <p>- <u>Популяризуємо права людини.</u> Проводимо правозахисні заходи, створюємо інформаційні матеріали жестовою мовою та поширюємо знання про права глухих.</p>
+                <p>- <u>Розвиваємо інклюзивні медіа.</u> Створюємо подкасти, відео та інші медіаматеріали жестовою мовою із субтитрами та озвученням, щоб зробити інформацію доступною для ширшої аудиторії.</p>
+            </div>
+        </div>
+          <div class="about-us__container2">
+            <h3>Наша участь</h3>
+            <p>Представники організації беруть активну участь у національних форумах та заходах, співпрацюють із державними установами, правозахисними ініціативами та професійними спільнотами задля розвитку безбар’єрності та рівного доступу до інформації.</p>
+            <div class="photo__contain">
+              <img class="photo__container photo1" src="images/about-us/photo-about-us3.JPG" alt="about-us3">
+              <img class="photo__container photo2" src="images/about-us/photo-about-us4.JPG" alt="about-us4">
+              <img class="photo__container photo3" src="images/about-us/photo-about-us5.jpg.JPEG" alt="about-us5">
+            </div>
+        </div>
+    </section>
+    <section class="who-we-are" id="who-we-are">
+        <h1 class="who-we-are__title">Хто ми</h1>
+        <div class="team-grid">
+            <img class="profiles" src="/images/profiles/profils.jpg" alt="profil">
+        </div>
+
+    </section>
+    <section class="activity" id="activity">
+    <h1 class="activity__title">Діяльність</h1>
+    <p class="activity__text">Громадська організація <b>World of Silence</b> реалізує освітні, правозахисні та інформаційні ініціативи, спрямовані на розвиток глухої спільноти, популяризацію української жестової мови та створення безбар’єрного середовища.
+</p>
+<h3 class="activity__name">Освіта та просвіта</h3>
+<p class="activity__text">Ми організовуємо освітні програми, тренінги, курси та інші заходи, спрямовані на поширення знань про права людини, громадянську участь та розвиток глухої спільноти. Також створюємо освітні матеріали українською жестовою мовою.</p>
+<h3 class="activity__name">Популяризація української жестової мови</h3>
+<p class="activity__text">Організація працює над поширенням української жестової мови та розвитком доступної комунікації між глухими та суспільством. Ми проводимо курси, створюємо відеоматеріали та реалізуємо інформаційні кампанії.</p>
+<h3 class="activity__name">Правозахисна діяльність</h3>
+<p class="activity__text">Ми сприяємо підвищенню обізнаності про права глухих, створюємо доступні інформаційні матеріали жестовою мовою та підтримуємо ініціативи, спрямовані на подолання дискримінації та бар’єрів у суспільстві.</p>
+<h3 class="activity__name">Інклюзивні медіа та доступна інформація</h3>
+<p class="activity__text">Організація створює подкасти, відео та інші медіаматеріали жестовою мовою із субтитрами та озвученням, щоб зробити важливу інформацію доступною для ширшої аудиторії.</p>
+<h3 class="activity__name">Співпраця та розвиток спільноти</h3>
+<p class="activity__text">Ми співпрацюємо з громадськими організаціями, державними установами, експертами та міжнародними партнерами для розвитку безбар’єрності, доступності інформації та участі глухих у суспільному житті.</p>
+    </section>
+</body>
+</html>
