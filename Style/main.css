@@ -10,6 +10,7 @@ body {
     margin: 0;
     padding: 0;
     color: #535D8D;
+    flex-direction: column;
     
 }
 
