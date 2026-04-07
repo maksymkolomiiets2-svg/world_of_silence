@@ -10,7 +10,13 @@ body {
     margin: 0;
     padding: 0;
     color: #535D8D;
-    flex-direction: column;
     
+    
+}
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
 }
 
